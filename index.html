@@ -13,13 +13,17 @@
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      ; text-align:center;">
     <hr><i>WELCOME TO MY WEBSITE </i><hr></h1>     
-    <ol style="margin-left: 35%;">
+    <ol style="margin-left: 35%;" type="A">
+        <li>Science</li>
+        <ul style="list-style-type: square;">
+            <li>Chemistry</li>
+            <li>Physics</li>
+            <li>Social Science</li>
+            <li>Biochemistry</li>
+        </ul>
         <li>Lion </li>
         <li>Zebra</li>
-    </ol>  
-    <ul style="margin-left: 35%;">
-        <li>Science</li>
-    </ul>
+    </ol>
     
     <button>Open</button>
      <hr>     <!--Horizontal line tag-->
@@ -38,15 +42,17 @@
     <h3>54<sup>2</sup></h3>
     <h3>(a+b)<sup>2</sup> = a<sup>2</sup>+ b<sup>2</sup>+ 2ab</h3>
 
-    <img src="img\Image.jpg" alt="Lion" style="border: 10px solid black;" title="Lion 'Strongest Animal'">
+    <img src="img\Image.jpg" alt="Lion" style="border: 10px 
+    solid black;" title="Lion 'Strongest Animal'" id="img">
     <br><br>
     Password <input type="password" placeholder="Enter your Password"><br><br>
     <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank"> <img src="img\CR7.jpg" height = "100px"></a>
     <br><br>
-    <a href="mailto:dineshnk167@gmail.com">Email me </a>
+    <div><a href="mailto:dineshnk167@gmail.com">Email me </a></div>
         <br><br>
-    <table>
-        <caption>Student Details</caption>
+        <hr>
+    <table width="400px" style="border: 3px dashed;">
+        <caption >Student Details</caption>
         <thead>
             <tr>
                 <th>Sno</th>
@@ -54,7 +60,7 @@
                 <th>Department</th>
             </tr>
         </thead>
-        <tboday>
+        <tboday style="text-align: center;">
             <tr>
                 <td>1</td>
                 <td>Dinesh</td>
@@ -63,7 +69,12 @@
             <tr>
                 <td>2</td>
                 <td>Praveen</td>
-                <td>CSE</td>
+                <td>CIVIL</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ramesh</td>
+                <td>EEE</td>
             </tr>
         </tboday>
 
@@ -71,6 +82,6 @@
 
 
 
-
+<a href="#img">Image</a>
 </body>
 </html>
